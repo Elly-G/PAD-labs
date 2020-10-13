@@ -7,11 +7,11 @@ import time
 class Consumer:
     def __init__(self, datatype):
         self.type = datatype
-        self.queue = middleware.XMLQueue(f"/{self.type}")
+        self.queue = middleware.JSONQueue(f"/{self.type}")
 
     @classmethod
     def datatypes(self):
-        return ["temp", "msg", "weather","/"]
+        return ["currency", "msg", "telephony","/"]
 
     def run(self, length=10):
         try:
@@ -25,7 +25,7 @@ class Consumer:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--type", help="type of producer: [temp, msg, weather,/]", default="temp")
+    parser.add_argument("--type", help="type of producer: [currency, msg, telephony,/]", default="currency")
     args = parser.parse_args()
 
     if args.type not in Consumer.datatypes():
