@@ -1,0 +1,14 @@
+\babel@toc {english}{}
+\babel@toc {french}{}
+\babel@toc {french}{}
+\babel@toc {french}{}
+\thispagestyle {empty}
+\contentsline {section}{L'introduction}{2}%
+\contentsline {section}{\numberline {1}Le but du laboratoire}{2}%
+\contentsline {section}{\numberline {2}Les objectifs du laboratoire}{2}%
+\contentsline {section}{\numberline {3}La mise en \IeC {\oe }uvre du syst\IeC {\`e}me}{3}%
+\contentsline {subsection}{\numberline {3.1}T\IeC {\^a}ches}{3}%
+\contentsline {subsection}{\numberline {3.2}L'analyse du travail de laboratoire}{3}%
+\contentsline {subsection}{\numberline {3.3}Les images}{11}%
+\contentsline {section}{Conclusions}{16}%
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{17}%

@@ -1,0 +1,24 @@
+\section*{Travail de laboratoire nr.\#1}
+\phantomsection
+
+\section{Le but du laboratoire}
+
+Décrire le but du laboratoire.
+Ce laboratoire comprend 2 parties:
+
+Implémentez un courtier de messages qui découplera la communication entre les différents composants du projet. Utilisez TCP ou UDP comme transport et tout format de sérialisation (préférable XML ou JSON).
+
+D'utiliser une infrastructure RPC pour remplacer les API basées sur Socket. Un framework RPC (ou RMI en POO) permet d'abstraire un appel de procédure / méthode sur le transport
+
+
+\section{Les objectifs du laboratoire}
+\begin{itemize}
+	\item Définir un protocole / API de communication pour le courtier de messages;
+	\item Utilisez BSD Sockets , ou l'implémentation la plus proche dans la langue que vous avez choisie, pour le transport de données;
+	\item Utilisez des collections thread-safe pour stocker les messages dans le courtier afin de permettre la communication MPMC (plusieurs producteurs, plusieurs consommateurs) ou SPMC (un seul producteur, plusieurs consommateurs);
+	\item Étudier et appliquer un framework RPC pour réimplémenter l'API du courtier
+	
+	
+\end{itemize}
+
+\clearpage
